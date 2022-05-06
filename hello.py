@@ -4,12 +4,12 @@
 #나머지 모든 경우는 숫자 그대로 출력
 print('hello')
 for i in range (1,21):
-    if  i%5==0:
+    if i%3 == 0 and i%5==0:
+        print("yeardream")
+    elif  i%5==0:
         print("dream")
     elif i%3==0:
         print("year")
-    elif i%3==0 and i%5==0:
-        print("yeardream")
     else:
         print(i)
 
